@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="D:\aparna\css\style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Tour and Travel</title>
     <link rel="icon" type="image/x-icon" href="./images/logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,13 +12,13 @@
 <body>
 <!-- navbar start  -->
     <div class="navbar" id="topNavbar">
-        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page248/level/assets/img/logo.png" alt="logo" width="90px" height="80px">
+        <img src="https://th.bing.com/th/id/OIP.Q6Sspn4gs1qRomkIHpSnNgHaF7?pid=ImgDet&rs=1" alt="logo" width="90px" height="100px">
         <h2>Level</h2>
         <ul>
-            <li class="active"><a href=""></a>Home</li>
-            <li><a href=""></a>Portfolio</li>
-            <li><a href=""></a>Blogentries</li>
-            <li><a href=""></a>Contact Us</li>
+            <li class="active"><a href="/html/index.html">Home</a></li>
+            <!-- <li><a href="">Portfolio</a></li> -->
+            <li><a href="/html/Destinations.html">Destinations</a></li>
+            <li><a href="#contactus">ContactUs</a></li>
             <li>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -40,7 +40,7 @@
                 <i class="fa-solid fa-user icon"></i><input type="number" name="n4" placeholder="Adult">
                 <i class="fa-solid fa-child icon"></i><input type="number" name="n5" placeholder="Children">
                 <i class="fa-solid fa-bed icon"></i><input type="number" name="n6" placeholder="Room">
-                <input type="button" value="Check Availabilty" class="b1">
+                <input type="button" value="Check Availabilty" class="b1" onclick="Availability()">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p style="color: brown;"> need help?</p>
             </form>
@@ -190,7 +190,7 @@
 <!-- ASIA Singapore ends-->
 
 <!-- footer starts -->
-    <div class="footer">
+    <div class="footer" id="contactus">
         <div class="maps">
            
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60282.822690241555!2d73.06456231029135!3d19.209330474827933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958ef72d8707%3A0x84bf6ab96e280b08!2sDombivli%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1645275378329!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -202,8 +202,8 @@
                <input type="text" placeholder="Name">
                <input type="text" placeholder="Email">
                <input type="text" placeholder="Subject">
-               <textarea placeholder="Address" rows="7" cols="28">
-                  
+               <textarea rows="7" cols="28" placeholder="Address">
+                  Address
                </textarea>
               
                <input type="button" value="SEND MESSAGE ME NOW" class="button1">
@@ -223,6 +223,10 @@
         x.className = "navbar";
       }
     }
+
+    function Availability() {
+        alert('Availabe')
+      }
     </script>
 </body>
 </html>
