@@ -1,0 +1,113 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+    overflow: hidden;
+}
+.navbar h2{
+    padding-right: 40%;
+    align-items: baseline;
+    
+}
+.navbar .icon {
+    display: none;
+  }
+img{
+    padding-left: 50px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    padding: 30px 20px;
+    margin-left: 1%;
+    color: white;
+}
+ul li:hover{
+    background-color: brown;
+    color:white;
+}
+.active{
+    background-color: brown;
+    color:white;
+}
+
+.hotels{
+    background-color: rgb(243, 212, 212);
+}
+
+.hotels h3{
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+.hotels .divisions{
+    padding: 10px;
+    border: 3px solid rgb(155, 22, 22);
+    margin: 2px 0px 2px 0px;
+}
+
+.hotels .divisions form{
+    color: black;
+}
+
+.hotels .divisions img{
+    width: 25rem;
+    height: 20rem;
+}
+
+.hotels .divisions:hover{
+    background-color: rgb(155, 22, 22);
+    color: rgb(237, 214, 214);
+}
+
+.hotels .divisions p:hover{
+    color: rgb(226, 215, 215)
+}
+
+
+.footer{
+    background-image: url("../images/backgroundImage.jpg");
+    background-size: cover;
+    padding: 10%;
+    padding-top: 15%;
+    display: flex;
+   
+}
+.footer .maps , .maps iframe{
+    height: auto;
+    width: 100%;
+}
+.footer .form{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    /* padding-right: 3%; */
+    padding: 3%;
+    /* padding-left: 3%; */
+    display: block;
+}
+.footer .form input,textarea{
+    background-color: rgb(234, 243, 243);
+    padding: 4%;
+    padding-right: 68%;
+    width: 4rem;
+    margin: 1%;
+}
+.footer .form .button1{
+    background-color: rgb(192, 59, 59); 
+    padding-right: 98%;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
